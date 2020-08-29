@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+$color-link: #138478;
+
+body {
+    background: lavender;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Red Rose';
+    color: #87d1ca;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Red Rose';
+    color: #4e4e4e;
+    font-weight: 500;
+}
+
+.subtitle--margin {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    font-family: 'Red Rose';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+ul li a:hover {
+    background-color: #c2bdd2;
+}
+
+.header__nav--padding {
+    padding: .2rem .5rem;
+}
+
+main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    p {
+        font-family: 'Red Rose', cursive;
+        color: #4e4e4e;
+        font-weight: 500;
+        word-spacing: .1rem;
+        text-align: center;
+    }
+}
+
+#sticky-footer {
+    font-family: 'Red Rose';
+    flex-shrink: none;
+    margin: auto;
+    max-width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+}
+
+
+.about-text {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
+
+
+
+/* NUEVO CSS PAGINA SERVICES */
+
+
+section {
+    div {
+        article {
+            h3 {
+                text-align: center;
+                font-family: 'Red Rose';
+                color: #252525;
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+            ul {
+                padding-inline-start: 0;
+                li {
+                    text-align: center;
+                    list-style: none !important;
+                    padding-top: .5rem;
+                    font-size: 1.2rem;
+                    list-style: square;
+                    font-family: 'Red Rose';
+                    color: #4e4e4e;
+                    a {
+                        text-decoration: underline;
+                        color: $color-link;
+                    }
+                }
+            }
+            p {
+                font-family: 'Red Rose';
+                font-size: 1.2rem;
+                color: #4e4e4e;
+            }
+        }
+        img {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+
+textarea {
+    overflow: clip;
+    resize: none;
+}
+
+.card {
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    .formulario{
+        margin-top: .5rem;
+    }
+    .form-title {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        display: none;
+    }
+    nav a {
+        font-size: 1.3rem !important;
+        font-weight: 500;
+    }
+    #about--img {
+        margin-top: 0rem;
+    }
+    .about-text {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    small {
+        font-size: 1.1rem;
+    }
+
+    article {
+        h3 {
+            font-size: 2rem !important;
+            margin-top: 1rem !important;
+        }
+        ul {
+            div {
+                li {
+                    font-size: 1.1rem !important;
+
+                }
+            }
+        }   
+        p {
+            margin-top: .5rem !important;
+            font-size: 1.2rem !important;
+        }
+
+    }
+
+    .my-3{
+        margin: 0 !important;
+    }
+            
+}
+
+
+@media (min-width: 992px) {
+    
+    .title {
+        font-weight: 600;
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }   
+    
+    .subtitle {
+        font-weight: 600;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-brand {
+        display: none;
+    }
+    
+    nav a {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    p {
+        font-weight: 700;
+        word-spacing: .1rem;
+        font-size: 1.2rem;
+    }
+}
