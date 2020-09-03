@@ -81,8 +81,6 @@ main {
 
 
 
-/* NUEVO CSS PAGINA SERVICES */
-
 
 section {
     div {
@@ -193,10 +191,13 @@ textarea {
 
     }
 
-    .my-3{
+    .mt-3 {
         margin: 0 !important;
     }
-            
+    
+    .separador-md {
+        margin-top: 1rem !important;
+    }
 }
 
 
